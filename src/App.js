@@ -84,7 +84,7 @@ function Hero() {
           Meus Projetos
         </a>
         <a
-          href="#contato"
+          href="#rodape"
           className="border border-white font-semibold px-6 py-3 rounded-lg hover:bg-white hover:text-blue-700 transition"
         >
           Contato
@@ -488,7 +488,7 @@ function App() {
   </p>
 </footer>*/}
 
-<footer className="bg-blue-600 text-white border-t border-blue-400 py-10">
+<footer className="bg-blue-600 text-white border-t border-blue-400 py-10" id="rodape">
   <div className="max-w-6xl mx-auto px-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 items-start text-center sm:text-left">
     
     {/* Navegação */}
