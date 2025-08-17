@@ -8,7 +8,7 @@ import Technologies from "./components/Technologies";
 // Dados dos projetos
 const projects = [
   {
-    name: "PDV SaaS Aguiar Estética Automotiva",
+    name: "Sistema de PDV SaaS",
     description:
       "App completo com cadastro de clientes, ordem de serviços, agendamento e vendas.",
     link: "#",
@@ -27,7 +27,7 @@ const projects = [
     images: ["/prints/creche/creche1.png"],
   },
   {
-    name: "Site Aguiar Estética Automotiva",
+    name: "Site Estética Automotiva Aguiar",
     description: "Site moderno e responsivo para estética automotiva.",
     link: "https://estetica-automotiva-aguiar.vercel.app/",
     images: ["/prints/estetica-automotiva/estetica_automotiva1.png"],
@@ -169,22 +169,21 @@ function App() {
   <h2 className="text-2xl sm:text-3xl font-bold mb-6 text-gray-800">
     Sobre Mim
   </h2>
-<p className="text-gray-700 max-w-2xl mx-auto text-base sm:text-lg leading-relaxed text-justify">
-  Sou <span className="font-semibold">Programador Full Stack</span>, formado em <span className="font-semibold">Engenharia Elétrica</span> e atualmente estudante de <span className="font-semibold">Ciência da Computação</span>.  
-  Tenho experiência no desenvolvimento de soluções completas, desde <span className="font-semibold">sites institucionais</span> até <span className="font-semibold">sistemas SaaS</span>, incluindo aplicações de <span className="font-semibold">PDV</span>.
-</p>
-
-<p className="text-gray-700 max-w-2xl mx-auto text-base sm:text-lg leading-relaxed text-justify">
-  Possuo domínio de <span className="font-semibold">C</span> para programação de microcontroladores, <span className="font-semibold">Python</span> para softwares embarcados, <span className="font-semibold">MATLAB</span>,  
-  além de sólida experiência com <span className="font-semibold">JavaScript, SQL, React</span> e <span className="font-semibold">Node.js</span>.  
-  Minha formação multidisciplinar, aliada à prática em diferentes tecnologias, permite integrar conhecimentos de <span className="font-semibold">hardware e software</span> no desenvolvimento de soluções inovadoras e eficientes.
-</p>
-
-<p className="text-gray-700 max-w-2xl mx-auto text-base sm:text-lg leading-relaxed text-justify">
-  Atualmente, aprofundo meus estudos em <span className="font-semibold">programação pelo programa One Oracle Next Education</span>,  
-  sempre buscando aplicar <span className="font-semibold">boas práticas de desenvolvimento</span> e expandir minhas habilidades em <span className="font-semibold">Arquitetura de Software</span>.
-</p>
-
+  <p className="text-gray-700 max-w-2xl mx-auto text-base sm:text-lg leading-relaxed text-justify">
+    Sou programador full stack, formado em Engenharia Elétrica e atualmente estudante de Ciência da Computação.
+    Tenho experiência no desenvolvimento de soluções completas, desde sites institucionais até sistemas SaaS, incluindo aplicações de PDV.
+  </p>
+  <p className="text-gray-700 max-w-2xl mx-auto text-base sm:text-lg leading-relaxed text-justify">
+    Possuo domínio de C para programação de microcontroladores, Python para softwares embarcados, MATLAB,
+    além de sólida experiência com JavaScript, SQL, React e Node.js. Minha formação multidisciplinar,
+    aliada à prática em diferentes tecnologias, permite integrar conhecimentos de hardware e software
+    no desenvolvimento de soluções inovadoras e eficientes.
+  </p>
+  <p className="text-gray-700 max-w-2xl mx-auto text-base sm:text-lg leading-relaxed text-justify">
+    Atualmente, aprofundo meus estudos em <span className="font-semibold">programação pelo programa One Oracle Next Education</span>,
+    sempre buscando aplicar boas práticas de desenvolvimento e expandir minhas habilidades em
+    <span className="font-semibold"> arquitetura de software</span>.
+  </p>
 </section>
 
 
