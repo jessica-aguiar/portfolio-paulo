@@ -146,7 +146,7 @@ function App() {
       {/* Contato */}
       <section className="p-10 text-center bg-gray-50">
         <h2 className="text-2xl font-semibold mb-4">Contato</h2>
-        <p className="text-gray-700 mb-4">📧 Email: phmelo.dev@email.com</p>
+        <p className="text-gray-700 mb-4">📧 Email: phmelo.dev@gmail.com</p>
         {(() => {
           const phone = "5598970034126";
           const message =

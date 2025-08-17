@@ -117,7 +117,7 @@ function App() {
       {/*
       <section className="p-10 text-center bg-gray-50">
         <h2 className="text-2xl font-semibold mb-4">Contato</h2>
-        <p className="text-gray-700">📧 Email: phmelo.dev@email.com</p>
+        <p className="text-gray-700">📧 Email: phmelo.dev@gmail.com</p>
         <p className="text-gray-700">
           🔗 LinkedIn:{" "}
           <a href="#" className="text-blue-600 hover:underline">
@@ -137,7 +137,7 @@ function App() {
   <h2 className="text-2xl font-semibold mb-4">Contato</h2>
 
   <p className="text-gray-700 mb-4">
-    📧 Email: phmelo.dev@email.com
+    📧 Email: phmelo.dev@gmail.com
   </p>
 
   <a
@@ -161,7 +161,7 @@ function App() {
   <h2 className="text-2xl font-semibold mb-4">Contato</h2>
 
   <p className="text-gray-700 mb-4">
-    📧 Email: phmelo.dev@email.com
+    📧 Email: phmelo.dev@gmail.com
   </p>
 
   <a
@@ -184,7 +184,7 @@ function App() {
   <h2 className="text-2xl font-semibold mb-4">Contato</h2>
 
   <p className="text-gray-700 mb-4">
-    📧 Email: phmelo.dev@email.com
+    📧 Email: phmelo.dev@gmail.com
   </p>
 
   <a
@@ -226,7 +226,7 @@ function App() {
   <h2 className="text-2xl font-semibold mb-4">Contato</h2>
 
   <p className="text-gray-700 mb-4">
-    📧 Email: phmelo.dev@email.com
+    📧 Email: phmelo.dev@gmail.com
   </p>
 
   {(() => {

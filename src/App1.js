@@ -142,7 +142,7 @@ function App() {
         <h2 className="text-xl sm:text-2xl font-semibold mb-4">Contato</h2>
 
         <p className="text-gray-700 mb-4 text-sm sm:text-base">
-          📧 Email: phmelo.dev@email.com
+          📧 Email: phmelo.dev@gmail.com
         </p>
 
         {(() => {
