@@ -99,6 +99,10 @@ function App() {
             { name: "Node.js", logo: "https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg" },
             { name: "PostgreSQL", logo: "https://cdn.worldvectorlogo.com/logos/postgresql.svg" },
             { name: "TailwindCSS", logo: "https://cdn.worldvectorlogo.com/logos/tailwindcss.svg" },
+            { name: "C", logo: "https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png" },
+            { name: "MATLAB", logo: "https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" },
+            { name: "Simulink", logo: "/logos/logo-Simulink.png" },
+            { name: "Microcontroladores", logo: "/logos/logo-microcontrolador.png" },
           ].map((skill, idx) => (
             <div key={idx} className="flex flex-col items-center w-20">
               <img
