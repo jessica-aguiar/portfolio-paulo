@@ -91,47 +91,55 @@ export default function PortfolioCard({ project }) {
       {/* Modal */}
       {isModalOpen && (
         <div
-          className="fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center z-50 p-4"
+          className="fixed inset-0 bg-black bg-opacity-80 flex items-center justify-center z-50 p-2"
           onClick={closeModal}
         >
           <div
-            className="relative max-w-[90vw] max-h-[80vh] flex items-center justify-center"
+            className="relative w-full h-full flex items-center justify-center"
             onClick={(e) => e.stopPropagation()}
           >
             <img
               src={project.images[current]}
               alt={project.name}
-              className="max-h-[80vh] max-w-[90vw] rounded-lg"
               ref={modalImageRef}
+              className="
+                max-h-[95vh] max-w-[95vw]      /* Mobile: maior imagem */
+                sm:max-h-[80vh] sm:max-w-[80vw] /* Tablet */
+                md:max-h-[70vh] md:max-w-[70vw] /* Desktop */
+                rounded-lg object-contain
+              "
             />
+
             {/* Botão Tela Cheia */}
             <button
               onClick={toggleFullScreen}
-              className="absolute top-2 right-2 bg-white/80 px-3 py-1 rounded shadow text-xs sm:text-sm"
+              className="absolute top-4 right-4 bg-white/80 px-3 py-1 rounded shadow text-sm sm:text-base"
             >
               Tela Cheia
             </button>
+
             {/* Navegação no Modal */}
             {project.images.length > 1 && (
               <>
                 <button
                   onClick={prevImage}
-                  className="absolute top-1/2 -translate-y-1/2 left-2 bg-white/80 px-3 py-2 rounded-full shadow text-lg sm:text-xl"
+                  className="absolute top-1/2 -translate-y-1/2 left-4 bg-white/80 px-4 py-3 rounded-full shadow text-2xl sm:text-3xl"
                 >
                   ◀
                 </button>
                 <button
                   onClick={nextImage}
-                  className="absolute top-1/2 -translate-y-1/2 right-2 bg-white/80 px-3 py-2 rounded-full shadow text-lg sm:text-xl"
+                  className="absolute top-1/2 -translate-y-1/2 right-4 bg-white/80 px-4 py-3 rounded-full shadow text-2xl sm:text-3xl"
                 >
                   ▶
                 </button>
               </>
             )}
+
             {/* Fechar */}
             <button
               onClick={closeModal}
-              className="absolute top-2 left-2 bg-white/80 px-3 py-1 rounded shadow text-xs sm:text-sm"
+              className="absolute top-4 left-4 bg-white/80 px-3 py-1 rounded shadow text-sm sm:text-base"
             >
               ✖
             </button>
