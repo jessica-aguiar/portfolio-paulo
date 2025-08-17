@@ -113,6 +113,7 @@ function App() {
       </section>
 
       {/* Contato */}
+      {/*
       <section className="p-10 text-center bg-gray-50">
         <h2 className="text-2xl font-semibold mb-4">Contato</h2>
         <p className="text-gray-700">📧 Email: phmelo.dev@email.com</p>
@@ -128,11 +129,32 @@ function App() {
             github.com/seuusuario
           </a>
         </p>
-      </section>
+      </section>*/}
+
+      {/* Contato */}
+<section className="p-10 text-center bg-gray-50">
+  <h2 className="text-2xl font-semibold mb-4">Contato</h2>
+
+  <p className="text-gray-700">
+    📧 Email: phmelo.dev@email.com
+  </p>
+
+  <p className="text-gray-700">
+    📱 WhatsApp:{" "}
+    <a
+      href="https://wa.me/5511912345678"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-green-600 font-semibold hover:underline"
+    >
+      Clique aqui para conversar
+    </a>
+  </p>
+</section>
 
       {/* Footer */}
       <footer className="bg-gray-800 text-white text-center py-4">
-        &copy; {new Date().getFullYear()} Paulo. Todos os direitos reservados.
+        &copy; {new Date().getFullYear()} Paulo Melo. Todos os direitos reservados.
       </footer>
     </div>
   );
