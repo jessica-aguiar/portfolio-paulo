@@ -20,10 +20,10 @@ const projects = [
       "App completo com cadastro de clientes, ordem de serviços, agendamento e vendas.",
     link: "#",
     images: [
-      "/prints/PDV/pdv1.png", "/prints/PDV/pdv2.png", "/prints/PDV/pdv3.png",
-      "/prints/PDV/pdv4.png", "/prints/PDV/pdv5.png", "/prints/PDV/pdv6.png",
-      "/prints/PDV/pdv7.png", "/prints/PDV/pdv8.png", "/prints/PDV/pdv9.png",
-      "/prints/PDV/pdv10.png", "/prints/PDV/pdv12.png",
+       "/prints/PDV/pdv-primeira.png","/prints/PDV/pdv1.png", "/prints/PDV/pdv2.png", 
+       "/prints/PDV/pdv3.png", "/prints/PDV/pdv4.png", "/prints/PDV/pdv5.png", 
+       "/prints/PDV/pdv6.png", "/prints/PDV/pdv7.png", "/prints/PDV/pdv8.png", 
+       "/prints/PDV/pdv9.png", "/prints/PDV/pdv10.png", "/prints/PDV/pdv12.png",
       "/prints/PDV/pdv13.png", "/prints/PDV/pdv14.png", "/prints/PDV/pdv15.png", 
       "/prints/PDV/pdv16.png",
     ],
@@ -537,7 +537,7 @@ function App() {
     {/* Navegação */}
     <div className="flex justify-center sm:justify-center">
       <div>
-        <h3 className="font-semibold mb-3 flex justify-start" >Navegação</h3>
+        <h3 className="font-semibold mb-3 justify-start" >Navegação</h3>
         <nav className="flex flex-col gap-1">
           <a href="#sobre-mim" className="hover:underline hover:text-blue-200 transition">Sobre</a>
           <a href="#projetos" className="hover:underline hover:text-blue-200 transition">Projetos</a>
