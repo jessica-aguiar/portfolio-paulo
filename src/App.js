@@ -180,7 +180,7 @@ function App() {
 </p>
 
 <p className="text-gray-700 max-w-2xl mx-auto text-base sm:text-lg leading-relaxed text-justify">
-  Possuo domínio de <span className="font-semibold">C</span> para programação de microcontroladores, <span className="font-semibold">Python</span> para softwares embarcados, <span className="font-semibold">MATLAB</span>,  
+  Possuo domínio de <span className="font-semibold">C</span> para programação de microcontroladores, <span className="font-semibold">Python</span> para scripts e softwares, <span className="font-semibold">MATLAB</span>,  
   além de sólida experiência com <span className="font-semibold">JavaScript, SQL, React</span> e <span className="font-semibold">Node.js</span>.  
   Minha formação multidisciplinar, aliada à prática em diferentes tecnologias, permite integrar conhecimentos de <span className="font-semibold">hardware e software</span> no desenvolvimento de soluções inovadoras e eficientes.
 </p>
