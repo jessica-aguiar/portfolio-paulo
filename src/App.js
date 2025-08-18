@@ -2,7 +2,7 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import PortfolioCard from "./components/PortfolioCard";
 import WhatsAppButton from "./components/WhatsAppButton";
-import Technologies from "./components/Technologies";
+{/*import Technologies from "./components/Technologies";*/}
 
 
 // Dados dos projetos
@@ -20,11 +20,12 @@ const projects = [
       "App completo com cadastro de clientes, ordem de serviços, agendamento e vendas.",
     link: "#",
     images: [
-      "/prints/pdv1.png", "/prints/pdv2.png", "/prints/pdv3.png",
-      "/prints/pdv4.png", "/prints/pdv5.png", "/prints/pdv6.png",
-      "/prints/pdv7.png", "/prints/pdv8.png", "/prints/pdv9.png",
-      "/prints/pdv10.png", "/prints/pdv11.png", "/prints/pdv12.png",
-      "/prints/pdv13.png",
+      "/prints/PDV/pdv1.png", "/prints/PDV/pdv2.png", "/prints/PDV/pdv3.png",
+      "/prints/PDV/pdv4.png", "/prints/PDV/pdv5.png", "/prints/PDV/pdv6.png",
+      "/prints/PDV/pdv7.png", "/prints/PDV/pdv8.png", "/prints/PDV/pdv9.png",
+      "/prints/PDV/pdv10.png", "/prints/PDV/pdv12.png",
+      "/prints/PDV/pdv13.png", "/prints/PDV/pdv14.png", "/prints/PDV/pdv15.png", 
+      "/prints/PDV/pdv16.png",
     ],
   },
   {
