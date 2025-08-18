@@ -1,5 +1,5 @@
 import React from "react";
-import { Helmet } from "react-helmet";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 import PortfolioCard from "./components/PortfolioCard";
 import WhatsAppButton from "./components/WhatsAppButton";
 {/*import Technologies from "./components/Technologies";*/}
@@ -101,7 +101,9 @@ function App() {
   return (
     <div className="min-h-screen bg-gray-100 font-sans">
       {/* SEO */}
-      <Helmet>
+      <HelmetProvider>
+  
+        <Helmet>
         <title>Paulo Melo | Desenvolvedor Full-Stack</title>
         <meta
           name="description"
@@ -133,6 +135,7 @@ function App() {
         <meta name="twitter:image" content="/prints/og-image.png" />
       </Helmet>
 
+    </HelmetProvider>
       {/* Hero / Capa */}
       <Hero />
 
@@ -211,8 +214,8 @@ function App() {
             { name: "Python", logo: "https://cdn.worldvectorlogo.com/logos/python-5.svg" }, // adicionado Python
             { name: "C", logo: "https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png" },
             { name: "MATLAB", logo: "https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" },
-            { name: "Simulink", logo: "/logos/logo-Simulink.png" },
-            { name: "Microcontroladores", logo: "/logos/logo-microcontrolador.png" },
+            { name: "Simulink", logo: "/logos/logo-Simulink.webp" },
+            { name: "Microcontroladores", logo: "/logos/logo-microcontrolador.webp" },
           ].map((skill, idx) => (
             <div key={idx} className="flex flex-col items-center w-20">
               <img
@@ -498,7 +501,7 @@ function App() {
         <nav className="flex flex-col gap-1">
           <a href="#sobre-mim" className="hover:underline hover:text-blue-200 transition">Sobre</a>
           <a href="#projetos" className="hover:underline hover:text-blue-200 transition">Projetos</a>
-          <a href="#contato" className="hover:underline hover:text-blue-200 transition">Contato</a>
+          {/*<a href="#contato" className="hover:underline hover:text-blue-200 transition">Contato</a>*/}
         </nav>
       </div>
     </div>
