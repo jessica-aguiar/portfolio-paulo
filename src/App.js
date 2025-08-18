@@ -7,6 +7,13 @@ import Technologies from "./components/Technologies";
 
 // Dados dos projetos
 const projects = [
+  
+  {
+    name: "Site Creche Escola Florescer",
+    description: "Site institucional responsivo para uma escola infantil.",
+    link: "http://www.crecheescolaflorescer.com",
+    images: ["/prints/creche/creche1.png"],
+  },
   {
     name: "PDV SaaS Aguiar Estética Automotiva",
     description:
@@ -19,12 +26,6 @@ const projects = [
       "/prints/pdv10.png", "/prints/pdv11.png", "/prints/pdv12.png",
       "/prints/pdv13.png",
     ],
-  },
-  {
-    name: "Site Creche Escola Florescer",
-    description: "Site institucional responsivo para uma escola infantil.",
-    link: "http://www.crecheescolaflorescer.com",
-    images: ["/prints/creche/creche1.png"],
   },
   {
     name: "Site Aguiar Estética Automotiva",
@@ -186,9 +187,6 @@ function App() {
 </p>
 
 </section>
-
-
-
 
       {/* Projetos */}
       <section id="projetos" className="p-6 sm:p-10 bg-white">
