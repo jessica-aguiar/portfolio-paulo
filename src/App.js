@@ -494,32 +494,10 @@ function App() {
 <footer className="bg-blue-600 text-white border-t border-blue-400 py-10" id="rodape">
   <div className="max-w-6xl mx-auto px-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 items-start text-center sm:text-left">
     
-    {/* Navegação */}
-    <div className="flex justify-center sm:justify-start">
-      <div>
-        <h3 className="font-semibold mb-2">Navegação</h3>
-        <nav className="flex flex-col gap-1">
-          <a href="#sobre-mim" className="hover:underline hover:text-blue-200 transition">Sobre</a>
-          <a href="#projetos" className="hover:underline hover:text-blue-200 transition">Projetos</a>
-          {/*<a href="#contato" className="hover:underline hover:text-blue-200 transition">Contato</a>*/}
-        </nav>
-      </div>
-    </div>
-
-    {/* Sobre Mim */}
-    <div className="flex justify-center">
-      <div>
-        <h3 className="font-semibold mb-2">Sobre Mim</h3>
-        <p className="text-sm sm:text-base leading-relaxed">
-          Criando soluções web modernas que unem design, performance e inovação.
-        </p>
-      </div>
-    </div>
-
     {/* Contato */}
-    <div className="flex justify-center sm:justify-end">
+    <div className="flex justify-center sm:justify-start">
       <div className="flex flex-col gap-3 items-center sm:items-end">
-        <h3 className="font-semibold mb-2">Contato</h3>
+        <h3 className="font-semibold mb-1">Contato</h3>
 
         {/* Email */}
         <a
@@ -554,6 +532,31 @@ function App() {
         </a>
       </div>
     </div>
+
+
+    {/* Navegação */}
+    <div className="flex justify-center sm:justify-center">
+      <div>
+        <h3 className="font-semibold mb-3 flex justify-start" >Navegação</h3>
+        <nav className="flex flex-col gap-1">
+          <a href="#sobre-mim" className="hover:underline hover:text-blue-200 transition">Sobre</a>
+          <a href="#projetos" className="hover:underline hover:text-blue-200 transition">Projetos</a>
+          {/*<a href="#contato" className="hover:underline hover:text-blue-200 transition">Contato</a>*/}
+        </nav>
+      </div>
+    </div>
+
+    {/* Sobre Mim */}
+    <div className="flex justify-end">
+      <div>
+        <h3 className="font-semibold mb-2">Sobre Mim</h3>
+        <p className="text-sm sm:text-base leading-relaxed">
+          Criando soluções web modernas que unem design, performance e inovação.
+        </p>
+      </div>
+    </div>
+
+    
 
   </div>
 
