@@ -31,7 +31,7 @@ const projects = [
   {
     name: "Site Aguiar Estética Automotiva",
     description: "Site moderno e responsivo para estética automotiva.",
-    link: "https://autoaguiarestetica.combr/",
+    link: "https://autoaguiarestetica.com.br/",
     images: ["/prints/estetica-automotiva/estetica_automotiva1.png"],
     /*   link: "https://estetica-automotiva-aguiar.vercel.app/",*/
   },
