@@ -31,14 +31,16 @@ const projects = [
   {
     name: "Site Aguiar Estética Automotiva",
     description: "Site moderno e responsivo para estética automotiva.",
-    link: "https://estetica-automotiva-aguiar.vercel.app/",
+    link: "https://autoaguiarestetica.combr/",
     images: ["/prints/estetica-automotiva/estetica_automotiva1.png"],
+    /*   link: "https://estetica-automotiva-aguiar.vercel.app/",*/
   },
   {
     name: "Site Soluções em Engenharia Elétrica",
     description: "Site moderno para Engenharia Elétrica.",
-    link: "https://paulo-henrique-melo-eng.vercel.app/",
+    link: "https://phmeloengenharia.com.br/",
     images: ["/prints/engenharia_eletrica/engenharia1.png"],
+    /*link: "https://paulo-henrique-melo-eng.vercel.app/",*/
   },
   {
     name: "Site One-Page Engenharia Eletrônica & Software Personalizado",
