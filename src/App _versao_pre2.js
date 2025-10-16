@@ -2,16 +2,13 @@ import React from "react";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import PortfolioCard from "./components/PortfolioCard";
 import WhatsAppButton from "./components/WhatsAppButton";
-// {/*import Technologies from "./components/Technologies";*/}
-
+// import Technologies from "./components/Technologies"; // Este import está comentado, mantenha assim se não for usado
 
 // Dados dos projetos
 const projects = [
-
-   {
+  {
     name: "Chatbot IA - Aguiar Estética Automotiva",
-    description: "Chatbot inteligente desenvolvido com Node.js e Processamento de Linguagem Natural (NLP) para atendimento automatizado de clientes da estética automotiva, com integração em site e página dedicada.", // Descrição aprimorada
-    // IMPORTANTE: O link deve ser absoluto para a página do chatbot no domínio da estética
+    description: "Chatbot inteligente desenvolvido com Node.js e Processamento de Linguagem Natural (NLP) para atendimento automatizado de clientes da estética automotiva, com integração em site e página dedicada.",
     link: "https://autoaguiarestetica.com.br/chatbot.html", 
     images: [
       "/prints/chatbot/chatbot_print_1.webp", 
@@ -152,7 +149,7 @@ function App() {
       {/* Hero / Capa */}
       <Hero />
 
-      {/* Sobre Mim - Versão detalhada (agora ativa) */}
+      {/* Sobre Mim */}
       <section id="sobre-mim" className="p-6 sm:p-10 text-center bg-gray-50">
         <h2 className="text-2xl sm:text-3xl font-bold mb-6 text-gray-800">
           Sobre Mim
@@ -184,7 +181,8 @@ function App() {
         </div>
       </section>
 
-      {/* Tecnologias - Versão detalhada (agora ativa) */}
+      {/* Tecnologias */}
+      {/* DESCOMENTADO: Usando a seção de tecnologias detalhada */}
       <section id="tecnologias" className="p-6 sm:p-10 text-center bg-white">
         <h2 className="text-2xl sm:text-3xl font-bold mb-6 text-gray-800">Tecnologias</h2>
 
