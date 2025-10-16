@@ -159,7 +159,7 @@ function App() {
   </h2>
   <p className="text-gray-700 max-w-2xl mx-auto text-base sm:text-lg leading-relaxed text-justify">
     Sou <span className="font-semibold">Programador Full Stack</span>, formado em <span className="font-semibold">Engenharia Elétrica</span> e atualmente estudante de <span className="font-semibold">Ciência da Computação</span>.  
-    Minha experiência abrange o desenvolvimento de soluções completas, desde <span className="font-semibold">sites institucionais</span> e <span className="font-semibold">sistemas SaaS</span> (como aplicações de PDV) até a criação de **soluções inteligentes de atendimento, como Chatbots de IA desenvolvidos com Node.js e Processamento de Linguagem Natural (NLP)**.
+    Minha experiência abrange o desenvolvimento de soluções completas, desde <span className="font-semibold">sites institucionais</span> e <span className="font-semibold">sistemas SaaS</span> (como aplicações de PDV) até a criação de soluções inteligentes de atendimento, como Chatbots de IA desenvolvidos com Node.js e Processamento de Linguagem Natural (NLP).
   </p>
 
   <p className="text-gray-700 max-w-2xl mx-auto text-base sm:text-lg leading-relaxed text-justify">
@@ -212,7 +212,9 @@ function App() {
             <div className="flex flex-wrap justify-center gap-6">
               {[
                 { name: "Node.js", logo: "https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg", tooltip: "Criação de APIs rápidas e escaláveis" },
-                { name: "Python", logo: "https://cdn.worldvectorlogo.com/logos/python-5.svg", tooltip: "Desenvolvimento de scripts e softwares com Python" }, 
+                { name: "Python", logo: "https://cdn.worldvectorlogo.com/logos/python-5.svg", tooltip: "Desenvolvimento de scripts e softwares com Python" },
+                // Na seção de Backend
+                { name: "NLP", logo: "/logos/nlp-icon.webp", tooltip: "Processamento de Linguagem Natural com bibliotecas como Node-NLP" },
               ].map((skill, idx) => (
                 <div key={idx} className="relative group flex flex-col items-center w-20">
                   <img src={skill.logo} alt={skill.name} className="w-10 h-10 sm:w-12 sm:h-12" />
@@ -241,6 +243,24 @@ function App() {
               ))}
             </div>
           </div>
+
+<div>
+  <h3 className="text-lg font-semibold mb-4 text-purple-700">IA & Machine Learning</h3>
+  <div className="flex flex-wrap justify-center gap-6">
+    {[
+      { name: "NLP", logo: "/logos/nlp-icon.webp", tooltip: "Processamento de Linguagem Natural com bibliotecas como Node-NLP" },
+      { name: "Chatbots", logo: "/logos/chatbot-icon.webp", tooltip: "Desenvolvimento de chatbots e assistentes virtuais" },
+    ].map((skill, idx) => (
+      <div key={idx} className="relative group flex flex-col items-center w-20">
+        <img src={skill.logo} alt={skill.name} className="w-10 h-10 sm:w-12 sm:h-12" />
+        <p className="mt-2 text-xs sm:text-sm">{skill.name}</p>
+        <span className="absolute -top-10 scale-0 group-hover:scale-100 transition rounded bg-gray-800 text-white text-xs px-2 py-1">
+          {skill.tooltip}
+        </span>
+      </div>
+    ))}
+  </div>
+</div>
 
           <div>
             <h3 className="text-lg font-semibold mb-4 text-red-700">Hardware & Embarcados</h3>
