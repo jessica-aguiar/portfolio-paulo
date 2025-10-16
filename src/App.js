@@ -213,8 +213,6 @@ function App() {
               {[
                 { name: "Node.js", logo: "https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg", tooltip: "Criação de APIs rápidas e escaláveis" },
                 { name: "Python", logo: "https://cdn.worldvectorlogo.com/logos/python-5.svg", tooltip: "Desenvolvimento de scripts e softwares com Python" },
-                // Na seção de Backend
-                { name: "NLP", logo: "/logos/nlp-icon.webp", tooltip: "Processamento de Linguagem Natural com bibliotecas como Node-NLP" },
               ].map((skill, idx) => (
                 <div key={idx} className="relative group flex flex-col items-center w-20">
                   <img src={skill.logo} alt={skill.name} className="w-10 h-10 sm:w-12 sm:h-12" />
@@ -248,6 +246,7 @@ function App() {
   <h3 className="text-lg font-semibold mb-4 text-purple-700">IA & Machine Learning</h3>
   <div className="flex flex-wrap justify-center gap-6">
     {[
+      { name: "Inteligência Artificial", logo: "/logos/ai-icon.webp", tooltip: "Conhecimento e aplicação de princípios de Inteligência Artificial" },
       { name: "NLP", logo: "/logos/nlp-icon.webp", tooltip: "Processamento de Linguagem Natural com bibliotecas como Node-NLP" },
       { name: "Chatbots", logo: "/logos/chatbot-icon.webp", tooltip: "Desenvolvimento de chatbots e assistentes virtuais" },
     ].map((skill, idx) => (
