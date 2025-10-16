@@ -152,27 +152,27 @@ function App() {
       {/* Hero / Capa */}
       <Hero />
 
-      {/* Sobre Mim - Versão detalhada (agora ativa) */}
-      <section id="sobre-mim" className="p-6 sm:p-10 text-center bg-gray-50">
-        <h2 className="text-2xl sm:text-3xl font-bold mb-6 text-gray-800">
-          Sobre Mim
-        </h2>
-        <p className="text-gray-700 max-w-2xl mx-auto text-base sm:text-lg leading-relaxed text-justify">
-          Sou <span className="font-semibold">Programador Full Stack</span>, formado em <span className="font-semibold">Engenharia Elétrica</span> e atualmente estudante de <span className="font-semibold">Ciência da Computação</span>.  
-          Tenho experiência no desenvolvimento de soluções completas, desde <span className="font-semibold">sites institucionais</span> até <span className="font-semibold">sistemas SaaS</span>, incluindo aplicações de <span className="font-semibold">PDV</span>.
-        </p>
+     {/* Sobre Mim - Versão detalhada (agora ativa) */}
+<section id="sobre-mim" className="p-6 sm:p-10 text-center bg-gray-50">
+  <h2 className="text-2xl sm:text-3xl font-bold mb-6 text-gray-800">
+    Sobre Mim
+  </h2>
+  <p className="text-gray-700 max-w-2xl mx-auto text-base sm:text-lg leading-relaxed text-justify">
+    Sou <span className="font-semibold">Programador Full Stack</span>, formado em <span className="font-semibold">Engenharia Elétrica</span> e atualmente estudante de <span className="font-semibold">Ciência da Computação</span>.  
+    Minha experiência abrange o desenvolvimento de soluções completas, desde <span className="font-semibold">sites institucionais</span> e <span className="font-semibold">sistemas SaaS</span> (como aplicações de PDV) até a criação de **soluções inteligentes de atendimento, como Chatbots de IA desenvolvidos com Node.js e Processamento de Linguagem Natural (NLP)**.
+  </p>
 
-        <p className="text-gray-700 max-w-2xl mx-auto text-base sm:text-lg leading-relaxed text-justify">
-          Possuo domínio de <span className="font-semibold">C</span> para programação de microcontroladores, <span className="font-semibold">Python</span> para scripts e softwares, <span className="font-semibold">MATLAB</span>,  
-          além de sólida experiência com <span className="font-semibold">JavaScript, SQL, React</span> e <span className="font-semibold">Node.js</span>.  
-          Minha formação multidisciplinar, aliada à prática em diferentes tecnologias, permite integrar conhecimentos de <span className="font-semibold">hardware e software</span> no desenvolvimento de soluções inovadoras e eficientes.
-        </p>
+  <p className="text-gray-700 max-w-2xl mx-auto text-base sm:text-lg leading-relaxed text-justify">
+    Possuo domínio de <span className="font-semibold">C</span> para programação de microcontroladores, <span className="font-semibold">Python</span> para scripts e softwares, <span className="font-semibold">MATLAB</span>,  
+    além de sólida experiência com <span className="font-semibold">JavaScript, SQL, React</span> e <span className="font-semibold">Node.js</span>.  
+    Minha formação multidisciplinar, aliada à prática em diferentes tecnologias, permite integrar conhecimentos de <span className="font-semibold">hardware e software</span> no desenvolvimento de soluções inovadoras e eficientes.
+  </p>
 
-        <p className="text-gray-700 max-w-2xl mx-auto text-base sm:text-lg leading-relaxed text-justify">
-          Atualmente, aprofundo meus estudos em <span className="font-semibold">programação pelo programa One Oracle Next Education</span>,  
-          sempre buscando aplicar <span className="font-semibold">boas práticas de desenvolvimento</span> e expandir minhas habilidades em <span className="font-semibold">Arquitetura de Software</span>.
-        </p>
-      </section>
+  <p className="text-gray-700 max-w-2xl mx-auto text-base sm:text-lg leading-relaxed text-justify">
+    Atualmente, aprofundo meus estudos em <span className="font-semibold">programação pelo programa One Oracle Next Education</span>,  
+    sempre buscando aplicar <span className="font-semibold">boas práticas de desenvolvimento</span> e expandir minhas habilidades em <span className="font-semibold">Arquitetura de Software</span>.
+  </p>
+</section>
 
       {/* Projetos */}
       <section id="projetos" className="p-6 sm:p-10 bg-white">
