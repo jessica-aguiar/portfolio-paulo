@@ -7,13 +7,17 @@ import WhatsAppButton from "./components/WhatsAppButton";
 
 // Dados dos projetos
 const projects = [
-  
+
    {
     name: "Chatbot IA - Aguiar Estética Automotiva",
     description: "Chatbot inteligente para atendimento de clientes de estética automotiva (Node.js, NLP).",
     // IMPORTANTE: O link deve ser relativo à raiz do seu domínio ou absoluto
     link: "https://autoaguiarestetica.com.br/chatbot.html", // Substitua pelo domínio real onde seu site de estética está hospedado
-    images: ["/prints/chatbot/chatbot_print.png"], // Adicione um print do seu chatbot aqui!
+    images: [
+      "/prints/chatbot/chatbot_print_1.webp", "/prints/chatbot/chatbot_print_2.webp",
+    "/prints/chatbot/chatbot_print_3.webp","/prints/chatbot/chatbot_print_4.webp",
+  "/prints/chatbot/chatbot_print_5.webp","/prints/chatbot/chatbot_print_6.webp" 
+    ], 
   },
   {
     name: "Site Creche Escola Florescer",
