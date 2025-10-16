@@ -15,8 +15,8 @@ const projects = [
     link: "https://autoaguiarestetica.com.br/chatbot.html", // Substitua pelo domínio real onde seu site de estética está hospedado
     images: [
       "/prints/chatbot/chatbot_print_1.webp", "/prints/chatbot/chatbot_print_2.webp",
-    "/prints/chatbot/chatbot_print_3.webp","/prints/chatbot/chatbot_print_4.webp",
-  "/prints/chatbot/chatbot_print_5.webp","/prints/chatbot/chatbot_print_6.webp" 
+      "/prints/chatbot/chatbot_print_3.webp","/prints/chatbot/chatbot_print_4.webp",
+      "/prints/chatbot/chatbot_print_5.webp","/prints/chatbot/chatbot_print_6.webp" 
     ], 
   },
   {
