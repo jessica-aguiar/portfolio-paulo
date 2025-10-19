@@ -248,11 +248,11 @@ function App() {
   <h3 className="text-lg font-semibold mb-4 text-purple-700">IA & Machine Learning</h3>
   <div className="flex flex-wrap justify-center gap-6">
     {[
-      { name: "LLM (Llama 3)", logo: "/logos/llama3-icon.webp", tooltip: "Implementação e orquestração de Large Language Models (LLMs) como Llama 3 em arquiteturas híbridas." },
       { name: "Inteligência Artificial", logo: "/logos/ai-icon.webp", tooltip: "Conhecimento e aplicação de princípios de Inteligência Artificial" },
       { name: "NLP", logo: "/logos/nlp-icon.webp", tooltip: "Processamento de Linguagem Natural com bibliotecas como Node-NLP" },
+      { name: "NLP", logo: "/logos/nlp-icon.webp", tooltip: "Processamento de Linguagem Natural com bibliotecas como Node-NLP" },
       { name: "Chatbots", logo: "/logos/chatbot-icon.webp", tooltip: "Desenvolvimento de chatbots e assistentes virtuais" },
-    ].map((skill, idx) => (
+     ].map((skill, idx) => (
       <div key={idx} className="relative group flex flex-col items-center w-20">
         <img src={skill.logo} alt={skill.name} className="w-10 h-10 sm:w-12 sm:h-12" />
         <p className="mt-2 text-xs sm:text-sm">{skill.name}</p>
