@@ -248,6 +248,7 @@ function App() {
   <h3 className="text-lg font-semibold mb-4 text-purple-700">IA & Machine Learning</h3>
   <div className="flex flex-wrap justify-center gap-6">
     {[
+      { name: "LLM (Llama 3)", logo: "/logos/llama3-icon.webp", tooltip: "Implementação e orquestração de Large Language Models (LLMs) como Llama 3 em arquiteturas híbridas." },
       { name: "Inteligência Artificial", logo: "/logos/ai-icon.webp", tooltip: "Conhecimento e aplicação de princípios de Inteligência Artificial" },
       { name: "NLP", logo: "/logos/nlp-icon.webp", tooltip: "Processamento de Linguagem Natural com bibliotecas como Node-NLP" },
       { name: "Chatbots", logo: "/logos/chatbot-icon.webp", tooltip: "Desenvolvimento de chatbots e assistentes virtuais" },
