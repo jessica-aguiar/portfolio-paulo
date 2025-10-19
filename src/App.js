@@ -10,7 +10,8 @@ const projects = [
 
    {
     name: "Chatbot IA - Aguiar Estética Automotiva",
-    description: "Chatbot inteligente desenvolvido com Node.js e Processamento de Linguagem Natural (NLP) para atendimento automatizado de clientes da estética automotiva, com integração em site e página dedicada.", // Descrição aprimorada
+    // 💡 TEXTO ATUALIZADO com a melhoria do LLM Llama 3 e arquitetura híbrida
+    description: "Chatbot IA com Arquitetura Híbrida Inteligente. O sistema utiliza NLP (Node.js) e possui uma camada de resiliência (fallback) que aciona o Large Language Model (LLM) Llama 3 para garantir respostas robustas e contextuais em cenários de alta complexidade.", 
     // IMPORTANTE: O link deve ser absoluto para a página do chatbot no domínio da estética
     link: "https://autoaguiarestetica.com.br/chatbot.html", 
     images: [
@@ -157,9 +158,10 @@ function App() {
   <h2 className="text-2xl sm:text-3xl font-bold mb-6 text-gray-800">
     Sobre Mim
   </h2>
+  {/* 💡 TEXTO ATUALIZADO: Inclusão da menção à arquitetura de LLM Llama 3 no primeiro parágrafo */}
   <p className="text-gray-700 max-w-2xl mx-auto text-base sm:text-lg leading-relaxed text-justify">
     Sou <span className="font-semibold">Programador Full Stack</span>, formado em <span className="font-semibold">Engenharia Elétrica</span> e atualmente estudante de <span className="font-semibold">Ciência da Computação</span>.  
-    Minha experiência abrange o desenvolvimento de soluções completas, desde <span className="font-semibold">sites institucionais</span> e <span className="font-semibold">sistemas SaaS</span> (como aplicações de PDV) até a criação de soluções inteligentes de atendimento, como Chatbots de IA desenvolvidos com Node.js e Processamento de Linguagem Natural (NLP).
+    Minha experiência abrange o desenvolvimento de soluções completas, desde <span className="font-semibold">sites institucionais</span> e <span className="font-semibold">sistemas SaaS</span> (como aplicações de PDV) até a criação de <span className="font-semibold">soluções inteligentes de atendimento robustas</span>. Desenvolvo <span className="font-semibold">Chatbots de IA</span> utilizando <span className="font-semibold">Processamento de Linguagem Natural (NLP)</span> em conjunto com a <span className="font-semibold">integração estratégica de Large Language Models (LLMs) de ponta, como o Llama 3</span>, em uma arquitetura de fallback para garantir respostas precisas e contextuais, mesmo em cenários de alta complexidade.
   </p>
 
   <p className="text-gray-700 max-w-2xl mx-auto text-base sm:text-lg leading-relaxed text-justify">
