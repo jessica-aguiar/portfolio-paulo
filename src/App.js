@@ -4,24 +4,23 @@ import PortfolioCard from "./components/PortfolioCard";
 import WhatsAppButton from "./components/WhatsAppButton";
 // {/*import Technologies from "./components/Technologies";*/}
 
-
 // Dados dos projetos
 const projects = [
-
-   {
+  {
     name: "Chatbot IA - Aguiar Estética Automotiva",
     // 💡 TEXTO ATUALIZADO com a melhoria do LLM Llama 3 e arquitetura híbrida
-    description: "Chatbot IA com Arquitetura Híbrida Inteligente. O sistema utiliza NLP (Node.js) e possui uma camada de resiliência (fallback) que aciona o Large Language Model (LLM) Llama 3 para garantir respostas robustas e contextuais em cenários de alta complexidade.", 
+    description:
+      "Chatbot IA com Arquitetura Híbrida Inteligente. O sistema utiliza NLP (Node.js) e possui uma camada de resiliência (fallback) que aciona o Large Language Model (LLM) Llama 3 para garantir respostas robustas e contextuais em cenários de alta complexidade.",
     // IMPORTANTE: O link deve ser absoluto para a página do chatbot no domínio da estética
-    link: "https://autoaguiarestetica.com.br/chatbot.html", 
+    link: "https://autoaguiarestetica.com.br/chatbot.html",
     images: [
-      "/prints/chatbot/chatbot_print_1.webp", 
+      "/prints/chatbot/chatbot_print_1.webp",
       "/prints/chatbot/chatbot_print_2.webp",
       "/prints/chatbot/chatbot_print_3.webp",
       "/prints/chatbot/chatbot_print_4.webp",
       "/prints/chatbot/chatbot_print_5.webp",
-      "/prints/chatbot/chatbot_print_6.webp" 
-    ], 
+      "/prints/chatbot/chatbot_print_6.webp",
+    ],
   },
   {
     name: "Site Creche Escola Florescer",
@@ -35,11 +34,21 @@ const projects = [
       "App completo com cadastro de clientes, ordem de serviços, agendamento e vendas.",
     link: "#",
     images: [
-       "/prints/PDV/pdv-primeira.png","/prints/PDV/pdv1.png", "/prints/PDV/pdv2.png", 
-       "/prints/PDV/pdv3.png", "/prints/PDV/pdv4.png", "/prints/PDV/pdv5.png", 
-       "/prints/PDV/pdv6.png", "/prints/PDV/pdv7.png", "/prints/PDV/pdv8.png", 
-       "/prints/PDV/pdv9.png", "/prints/PDV/pdv10.png", "/prints/PDV/pdv12.png",
-      "/prints/PDV/pdv13.png", "/prints/PDV/pdv14.png", "/prints/PDV/pdv15.png", 
+      "/prints/PDV/pdv-primeira.png",
+      "/prints/PDV/pdv1.png",
+      "/prints/PDV/pdv2.png",
+      "/prints/PDV/pdv3.png",
+      "/prints/PDV/pdv4.png",
+      "/prints/PDV/pdv5.png",
+      "/prints/PDV/pdv6.png",
+      "/prints/PDV/pdv7.png",
+      "/prints/PDV/pdv8.png",
+      "/prints/PDV/pdv9.png",
+      "/prints/PDV/pdv10.png",
+      "/prints/PDV/pdv12.png",
+      "/prints/PDV/pdv13.png",
+      "/prints/PDV/pdv14.png",
+      "/prints/PDV/pdv15.png",
       "/prints/PDV/pdv16.png",
     ],
   },
@@ -78,10 +87,9 @@ const projects = [
 function Hero() {
   return (
     <section className="h-screen flex flex-col justify-center items-center bg-gradient-to-r from-blue-600 to-indigo-700 text-white text-center px-6">
-      
-       <div className="mt-10">
+      <div className="mt-10">
         <img
-          src='/imagens/Paulo_Melo2.webp'
+          src="/imagens/Paulo_Melo2.webp"
           alt="Foto de perfil de Paulo Melo" // Alt text mais descritivo
           className="w-64 md:w-80 mx-auto"
         />
@@ -91,7 +99,8 @@ function Hero() {
         Olá, eu sou Paulo Melo
       </h1>
       <p className="text-lg sm:text-xl md:text-2xl mb-6 max-w-xl">
-        Desenvolvedor Full-Stack | Criando soluções web modernas com React, Node.js e PostgreSQL
+        Desenvolvedor Full-Stack | Criando soluções web modernas com React,
+        Node.js e PostgreSQL
       </p>
       <div className="flex gap-4">
         <a
@@ -107,7 +116,6 @@ function Hero() {
           Contato
         </a>
       </div>
-     
     </section>
   );
 }
@@ -127,21 +135,33 @@ function App() {
             name="keywords"
             content="Desenvolvedor React, Node.js, PostgreSQL, Full-Stack, Portfólio, Paulo Melo"
           />
-          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+          <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+          />
 
           {/* Open Graph */}
-          <meta property="og:title" content="Paulo Melo | Desenvolvedor Full-Stack" />
+          <meta
+            property="og:title"
+            content="Paulo Melo | Desenvolvedor Full-Stack"
+          />
           <meta
             property="og:description"
             content="Portfólio de Paulo Melo - Projetos de sites, sistemas e aplicações web."
           />
           <meta property="og:type" content="website" />
-          <meta property="og:url" content="https://portfolio-paulo-melo.vercel.app/" />
+          <meta
+            property="og:url"
+            content="https://portfolio-paulo-melo.vercel.app/"
+          />
           <meta property="og:image" content="/prints/og-image.png" />
 
           {/* Twitter Card */}
           <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:title" content="Paulo Melo | Desenvolvedor Full-Stack" />
+          <meta
+            name="twitter:title"
+            content="Paulo Melo | Desenvolvedor Full-Stack"
+          />
           <meta
             name="twitter:description"
             content="Portfólio de Paulo Melo - Projetos de sites, sistemas e aplicações web."
@@ -153,13 +173,13 @@ function App() {
       {/* Hero / Capa */}
       <Hero />
 
-     {/* Sobre Mim - Versão detalhada (agora ativa) */}
-<section id="sobre-mim" className="p-6 sm:p-10 text-center bg-gray-50">
+      {/* Sobre Mim - Versão detalhada (agora ativa) */}
+      {/*<section id="sobre-mim" className="p-6 sm:p-10 text-center bg-gray-50">
   <h2 className="text-2xl sm:text-3xl font-bold mb-6 text-gray-800">
     Sobre Mim
-  </h2>
-  {/* 💡 TEXTO ATUALIZADO: Inclusão da menção à arquitetura de LLM Llama 3 no primeiro parágrafo */}
-  <p className="text-gray-700 max-w-2xl mx-auto text-base sm:text-lg leading-relaxed text-justify">
+  </h2>*/}
+      {/* 💡 TEXTO ATUALIZADO: Inclusão da menção à arquitetura de LLM Llama 3 no primeiro parágrafo */}
+      {/*<p className="text-gray-700 max-w-2xl mx-auto text-base sm:text-lg leading-relaxed text-justify">
     Sou <span className="font-semibold">Programador Full Stack</span>, formado em <span className="font-semibold">Engenharia Elétrica</span> e atualmente estudante de <span className="font-semibold">Ciência da Computação</span>.  
     Minha experiência abrange o desenvolvimento de soluções completas, desde <span className="font-semibold">sites institucionais</span> e <span className="font-semibold">sistemas SaaS</span> (como aplicações de PDV) até a criação de <span className="font-semibold">soluções inteligentes de atendimento robustas</span>. Desenvolvo <span className="font-semibold">Chatbots de IA</span> utilizando <span className="font-semibold">Processamento de Linguagem Natural (NLP)</span> em conjunto com a <span className="font-semibold">integração estratégica de Large Language Models (LLMs) de ponta, como o Llama 3</span>, em uma arquitetura de fallback para garantir respostas precisas e contextuais, mesmo em cenários de alta complexidade.
   </p>
@@ -174,11 +194,147 @@ function App() {
     Atualmente, aprofundo meus estudos em <span className="font-semibold">programação pelo programa One Oracle Next Education</span>,  
     sempre buscando aplicar <span className="font-semibold">boas práticas de desenvolvimento</span> e expandir minhas habilidades em <span className="font-semibold">Arquitetura de Software</span>.
   </p>
-</section>
+</section>*/}
+
+      <section id="sobre-mim" className="p-6 sm:p-10 text-center bg-gray-50">
+        <h2 className="text-2xl sm:text-3xl font-bold mb-6 text-gray-800">
+          Sobre Mim
+        </h2>
+
+        <p className="text-gray-700 max-w-2xl mx-auto text-base sm:text-lg leading-relaxed text-justify">
+          Sou <span className="font-semibold">Programador Full Stack</span>,
+          formado em <span className="font-semibold">Engenharia Elétrica</span>{" "}
+          e atualmente
+          <span className="font-semibold">
+            {" "}
+            estudante de Ciência da Computação
+          </span>
+          . Tenho experiência no desenvolvimento de{" "}
+          <span className="font-semibold">soluções completas</span>, que vão
+          desde
+          <span className="font-semibold"> sites institucionais</span> e
+          <span className="font-semibold"> sistemas SaaS</span> (como aplicações
+          de PDV) até
+          <span className="font-semibold">
+            {" "}
+            soluções inteligentes de atendimento baseadas em Inteligência
+            Artificial
+          </span>
+          .
+        </p>
+
+        <p className="text-gray-700 max-w-2xl mx-auto text-base sm:text-lg leading-relaxed text-justify mt-6">
+          Entre meus projetos, destaco o{" "}
+          <span className="font-semibold">
+            desenvolvimento de um CMS completo para gestão de eventos e
+            conteúdos
+          </span>{" "}
+          de sites institucionais. O sistema permite{" "}
+          <span className="font-semibold">
+            criar, editar e gerenciar imagens, textos e datas
+          </span>{" "}
+          por meio de um
+          <span className="font-semibold">
+            {" "}
+            painel administrativo intuitivo
+          </span>
+          , implementado com
+          <span className="font-semibold"> React no frontend</span> e
+          <span className="font-semibold"> Node.js/Express no backend</span>. A
+          aplicação conta com{" "}
+          <span className="font-semibold">CRUD completo</span>,
+          <span className="font-semibold"> autenticação segura</span> e
+          <span className="font-semibold"> API RESTful</span>, garantindo
+          <span className="font-semibold">
+            {" "}
+            comunicação eficiente, arquitetura modular e fácil manutenção
+          </span>
+          . Atualmente, como{" "}
+          <span className="font-semibold">
+            estudante de Ciência da Computação
+          </span>
+          , venho aprofundando meus conhecimentos em
+          <span className="font-semibold">
+            {" "}
+            engenharia de software, bancos de dados e desenvolvimento de
+            aplicações escaláveis
+          </span>
+          , o que tem contribuído diretamente para a{" "}
+          <span className="font-semibold">
+            evolução técnica e estrutural dos meus projetos
+          </span>
+          .
+        </p>
+
+        <p className="text-gray-700 max-w-2xl mx-auto text-base sm:text-lg leading-relaxed text-justify mt-6">
+          Atuo também no{" "}
+          <span className="font-semibold">
+            desenvolvimento de Chatbots de IA
+          </span>
+          , utilizando
+          <span className="font-semibold">
+            {" "}
+            Processamento de Linguagem Natural (NLP)
+          </span>{" "}
+          e
+          <span className="font-semibold">
+            {" "}
+            integração de Large Language Models (LLMs)
+          </span>
+          , como o<span className="font-semibold"> Llama 3</span>, em uma
+          <span className="font-semibold">
+            {" "}
+            arquitetura híbrida de fallback
+          </span>
+          . Essa abordagem assegura{" "}
+          <span className="font-semibold">
+            respostas precisas e contextuais
+          </span>
+          , mesmo em cenários complexos, e permite
+          <span className="font-semibold"> aprendizado contínuo</span> para
+          aprimorar a performance do assistente ao longo do tempo.
+        </p>
+
+        <p className="text-gray-700 max-w-2xl mx-auto text-base sm:text-lg leading-relaxed text-justify mt-6">
+          Tenho domínio em <span className="font-semibold">C</span> (para
+          microcontroladores),
+          <span className="font-semibold"> Python</span> (para scripts,
+          automações e IA),
+          <span className="font-semibold"> MATLAB</span>, além de sólida
+          experiência com
+          <span className="font-semibold"> JavaScript, SQL, React</span> e
+          <span className="font-semibold"> Node.js</span>. Minha{" "}
+          <span className="font-semibold">formação multidisciplinar</span>,
+          aliada à prática em diferentes tecnologias, me permite integrar
+          conhecimentos de{" "}
+          <span className="font-semibold">hardware e software</span>
+          no desenvolvimento de soluções inovadoras e eficientes.
+        </p>
+
+        <p className="text-gray-700 max-w-2xl mx-auto text-base sm:text-lg leading-relaxed text-justify mt-6">
+          Atualmente, aprofundo meus estudos em{" "}
+          <span className="font-semibold">
+            programação e arquitetura de software
+          </span>
+          pelo programa{" "}
+          <span className="font-semibold">Oracle Next Education (ONE)</span>,
+          sempre com foco em
+          <span className="font-semibold">
+            boas práticas, aprendizado contínuo
+          </span>{" "}
+          e na criação de
+          <span className="font-semibold">
+            sistemas escaláveis e inteligentes
+          </span>
+          .
+        </p>
+      </section>
 
       {/* Projetos */}
       <section id="projetos" className="p-6 sm:p-10 bg-white">
-        <h2 className="text-xl sm:text-2xl font-semibold mb-6 text-center">Projetos</h2>
+        <h2 className="text-xl sm:text-2xl font-semibold mb-6 text-center">
+          Projetos
+        </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {projects.map((proj, idx) => (
             <PortfolioCard key={idx} project={proj} />
@@ -188,18 +344,37 @@ function App() {
 
       {/* Tecnologias - Versão detalhada (agora ativa) */}
       <section id="tecnologias" className="p-6 sm:p-10 text-center bg-white">
-        <h2 className="text-2xl sm:text-3xl font-bold mb-6 text-gray-800">Tecnologias</h2>
+        <h2 className="text-2xl sm:text-3xl font-bold mb-6 text-gray-800">
+          Tecnologias
+        </h2>
 
         <div className="grid gap-10">
           <div>
-            <h3 className="text-lg font-semibold mb-4 text-blue-700">Frontend</h3>
+            <h3 className="text-lg font-semibold mb-4 text-blue-700">
+              Frontend
+            </h3>
             <div className="flex flex-wrap justify-center gap-6">
               {[
-                { name: "React", logo: "https://cdn.worldvectorlogo.com/logos/react-2.svg", tooltip: "Experiência em frontend com React" },
-                { name: "TailwindCSS", logo: "https://cdn.worldvectorlogo.com/logos/tailwindcss.svg", tooltip: "Estilização moderna e responsiva com TailwindCSS" },
+                {
+                  name: "React",
+                  logo: "https://cdn.worldvectorlogo.com/logos/react-2.svg",
+                  tooltip: "Experiência em frontend com React",
+                },
+                {
+                  name: "TailwindCSS",
+                  logo: "https://cdn.worldvectorlogo.com/logos/tailwindcss.svg",
+                  tooltip: "Estilização moderna e responsiva com TailwindCSS",
+                },
               ].map((skill, idx) => (
-                <div key={idx} className="relative group flex flex-col items-center w-20">
-                  <img src={skill.logo} alt={skill.name} className="w-10 h-10 sm:w-12 sm:h-12" />
+                <div
+                  key={idx}
+                  className="relative group flex flex-col items-center w-20"
+                >
+                  <img
+                    src={skill.logo}
+                    alt={skill.name}
+                    className="w-10 h-10 sm:w-12 sm:h-12"
+                  />
                   <p className="mt-2 text-xs sm:text-sm">{skill.name}</p>
                   <span className="absolute -top-10 scale-0 group-hover:scale-100 transition rounded bg-gray-800 text-white text-xs px-2 py-1">
                     {skill.tooltip}
@@ -210,14 +385,31 @@ function App() {
           </div>
 
           <div>
-            <h3 className="text-lg font-semibold mb-4 text-green-700">Backend</h3>
+            <h3 className="text-lg font-semibold mb-4 text-green-700">
+              Backend
+            </h3>
             <div className="flex flex-wrap justify-center gap-6">
               {[
-                { name: "Node.js", logo: "https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg", tooltip: "Criação de APIs rápidas e escaláveis" },
-                { name: "Python", logo: "https://cdn.worldvectorlogo.com/logos/python-5.svg", tooltip: "Desenvolvimento de scripts e softwares com Python" },
+                {
+                  name: "Node.js",
+                  logo: "https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg",
+                  tooltip: "Criação de APIs rápidas e escaláveis",
+                },
+                {
+                  name: "Python",
+                  logo: "https://cdn.worldvectorlogo.com/logos/python-5.svg",
+                  tooltip: "Desenvolvimento de scripts e softwares com Python",
+                },
               ].map((skill, idx) => (
-                <div key={idx} className="relative group flex flex-col items-center w-20">
-                  <img src={skill.logo} alt={skill.name} className="w-10 h-10 sm:w-12 sm:h-12" />
+                <div
+                  key={idx}
+                  className="relative group flex flex-col items-center w-20"
+                >
+                  <img
+                    src={skill.logo}
+                    alt={skill.name}
+                    className="w-10 h-10 sm:w-12 sm:h-12"
+                  />
                   <p className="mt-2 text-xs sm:text-sm">{skill.name}</p>
                   <span className="absolute -top-10 scale-0 group-hover:scale-100 transition rounded bg-gray-800 text-white text-xs px-2 py-1">
                     {skill.tooltip}
@@ -228,13 +420,26 @@ function App() {
           </div>
 
           <div>
-            <h3 className="text-lg font-semibold mb-4 text-indigo-700">Banco de Dados</h3>
+            <h3 className="text-lg font-semibold mb-4 text-indigo-700">
+              Banco de Dados
+            </h3>
             <div className="flex flex-wrap justify-center gap-6">
               {[
-                { name: "PostgreSQL", logo: "https://cdn.worldvectorlogo.com/logos/postgresql.svg", tooltip: "Banco de dados relacional avançado" },
+                {
+                  name: "PostgreSQL",
+                  logo: "https://cdn.worldvectorlogo.com/logos/postgresql.svg",
+                  tooltip: "Banco de dados relacional avançado",
+                },
               ].map((skill, idx) => (
-                <div key={idx} className="relative group flex flex-col items-center w-20">
-                  <img src={skill.logo} alt={skill.name} className="w-10 h-10 sm:w-12 sm:h-12" />
+                <div
+                  key={idx}
+                  className="relative group flex flex-col items-center w-20"
+                >
+                  <img
+                    src={skill.logo}
+                    alt={skill.name}
+                    className="w-10 h-10 sm:w-12 sm:h-12"
+                  />
                   <p className="mt-2 text-xs sm:text-sm">{skill.name}</p>
                   <span className="absolute -top-10 scale-0 group-hover:scale-100 transition rounded bg-gray-800 text-white text-xs px-2 py-1">
                     {skill.tooltip}
@@ -244,37 +449,91 @@ function App() {
             </div>
           </div>
 
-<div>
-  <h3 className="text-lg font-semibold mb-4 text-purple-700">IA & Machine Learning</h3>
-  <div className="flex flex-wrap justify-center gap-6">
-    {[
-      { name: "Inteligência Artificial", logo: "/logos/ai-icon.webp", tooltip: "Conhecimento e aplicação de princípios de Inteligência Artificial" },
-      { name: "NLP", logo: "/logos/nlp-icon.webp", tooltip: "Processamento de Linguagem Natural com bibliotecas como Node-NLP" },
-      { name: "Chatbots", logo: "/logos/chatbot-icon.webp", tooltip: "Desenvolvimento de chatbots e assistentes virtuais" },
-      { name: "LLM(Llama 3)", logo: "/logos/llama3-icon.webp", tooltip: "Implementação e orquestração de Large Language Models (LLMs) como Llama 3 em arquiteturas híbridas." },
-    ].map((skill, idx) => (
-      <div key={idx} className="relative group flex flex-col items-center w-20">
-        <img src={skill.logo} alt={skill.name} className="w-10 h-10 sm:w-12 sm:h-12" />
-        <p className="mt-2 text-xs sm:text-sm">{skill.name}</p>
-        <span className="absolute -top-10 scale-0 group-hover:scale-100 transition rounded bg-gray-800 text-white text-xs px-2 py-1">
-          {skill.tooltip}
-        </span>
-      </div>
-    ))}
-  </div>
-</div>
-
           <div>
-            <h3 className="text-lg font-semibold mb-4 text-red-700">Hardware & Embarcados</h3>
+            <h3 className="text-lg font-semibold mb-4 text-purple-700">
+              IA & Machine Learning
+            </h3>
             <div className="flex flex-wrap justify-center gap-6">
               {[
-                { name: "C", logo: "https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png", tooltip: "Programação de sistemas embarcados em C" },
-                { name: "MATLAB", logo: "https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png", tooltip: "Simulações matemáticas e de controle" },
-                { name: "Simulink", logo: "/logos/logo-Simulink.webp", tooltip: "Modelagem e simulação de sistemas dinâmicos com Simulink" },
-                { name: "Microcontroladores", logo: "/logos/logo-microcontrolador.webp", tooltip: "Experiência com ESP32, Arduino e ARM" },
+                {
+                  name: "Inteligência Artificial",
+                  logo: "/logos/ai-icon.webp",
+                  tooltip:
+                    "Conhecimento e aplicação de princípios de Inteligência Artificial",
+                },
+                {
+                  name: "NLP",
+                  logo: "/logos/nlp-icon.webp",
+                  tooltip:
+                    "Processamento de Linguagem Natural com bibliotecas como Node-NLP",
+                },
+                {
+                  name: "Chatbots",
+                  logo: "/logos/chatbot-icon.webp",
+                  tooltip: "Desenvolvimento de chatbots e assistentes virtuais",
+                },
+                {
+                  name: "LLM(Llama 3)",
+                  logo: "/logos/llama3-icon.webp",
+                  tooltip:
+                    "Implementação e orquestração de Large Language Models (LLMs) como Llama 3 em arquiteturas híbridas.",
+                },
               ].map((skill, idx) => (
-                <div key={idx} className="relative group flex flex-col items-center w-20">
-                  <img src={skill.logo} alt={skill.name} className="w-10 h-10 sm:w-12 sm:h-12" />
+                <div
+                  key={idx}
+                  className="relative group flex flex-col items-center w-20"
+                >
+                  <img
+                    src={skill.logo}
+                    alt={skill.name}
+                    className="w-10 h-10 sm:w-12 sm:h-12"
+                  />
+                  <p className="mt-2 text-xs sm:text-sm">{skill.name}</p>
+                  <span className="absolute -top-10 scale-0 group-hover:scale-100 transition rounded bg-gray-800 text-white text-xs px-2 py-1">
+                    {skill.tooltip}
+                  </span>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          <div>
+            <h3 className="text-lg font-semibold mb-4 text-red-700">
+              Hardware & Embarcados
+            </h3>
+            <div className="flex flex-wrap justify-center gap-6">
+              {[
+                {
+                  name: "C",
+                  logo: "https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png",
+                  tooltip: "Programação de sistemas embarcados em C",
+                },
+                {
+                  name: "MATLAB",
+                  logo: "https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png",
+                  tooltip: "Simulações matemáticas e de controle",
+                },
+                {
+                  name: "Simulink",
+                  logo: "/logos/logo-Simulink.webp",
+                  tooltip:
+                    "Modelagem e simulação de sistemas dinâmicos com Simulink",
+                },
+                {
+                  name: "Microcontroladores",
+                  logo: "/logos/logo-microcontrolador.webp",
+                  tooltip: "Experiência com ESP32, Arduino e ARM",
+                },
+              ].map((skill, idx) => (
+                <div
+                  key={idx}
+                  className="relative group flex flex-col items-center w-20"
+                >
+                  <img
+                    src={skill.logo}
+                    alt={skill.name}
+                    className="w-10 h-10 sm:w-12 sm:h-12"
+                  />
                   <p className="mt-2 text-xs sm:text-sm">{skill.name}</p>
                   <span className="absolute -top-10 scale-0 group-hover:scale-100 transition rounded bg-gray-800 text-white text-xs px-2 py-1">
                     {skill.tooltip}
@@ -287,9 +546,11 @@ function App() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-blue-600 text-white border-t border-blue-400 py-10" id="rodape">
+      <footer
+        className="bg-blue-600 text-white border-t border-blue-400 py-10"
+        id="rodape"
+      >
         <div className="max-w-6xl mx-auto px-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 items-start text-center sm:text-left">
-          
           {/* Contato */}
           <div className="flex justify-center sm:justify-start">
             <div className="flex flex-col gap-3 items-center sm:items-end">
@@ -329,14 +590,23 @@ function App() {
             </div>
           </div>
 
-
           {/* Navegação */}
           <div className="flex justify-center sm:justify-center">
             <div>
-              <h3 className="font-semibold mb-3 justify-start" >Navegação</h3>
+              <h3 className="font-semibold mb-3 justify-start">Navegação</h3>
               <nav className="flex flex-col gap-1">
-                <a href="#sobre-mim" className="hover:underline hover:text-blue-200 transition">Sobre</a>
-                <a href="#projetos" className="hover:underline hover:text-blue-200 transition">Projetos</a>
+                <a
+                  href="#sobre-mim"
+                  className="hover:underline hover:text-blue-200 transition"
+                >
+                  Sobre
+                </a>
+                <a
+                  href="#projetos"
+                  className="hover:underline hover:text-blue-200 transition"
+                >
+                  Projetos
+                </a>
                 {/*<a href="#contato" className="hover:underline hover:text-blue-200 transition">Contato</a>*/}
               </nav>
             </div>
@@ -347,7 +617,8 @@ function App() {
             <div>
               <h3 className="font-semibold mb-2">Sobre Mim</h3>
               <p className="text-sm sm:text-base leading-relaxed">
-                Criando soluções web modernas que unem design, performance e inovação.
+                Criando soluções web modernas que unem design, performance e
+                inovação.
               </p>
             </div>
           </div>
@@ -355,7 +626,8 @@ function App() {
 
         {/* Direitos autorais */}
         <p className="text-center text-xs sm:text-sm mt-6 text-blue-200">
-          &copy; {new Date().getFullYear()} Paulo Melo. Todos os direitos reservados.
+          &copy; {new Date().getFullYear()} Paulo Melo. Todos os direitos
+          reservados.
         </p>
       </footer>
 
