@@ -201,7 +201,7 @@ function App() {
           Sobre Mim
         </h2>
 
-        <p className="text-gray-700 max-w-2xl mx-auto text-base sm:text-lg leading-relaxed text-justify">
+        <p className="text-gray-700 max-w-4xl mx-auto text-base sm:text-lg leading-relaxed text-justify">
           Sou <span className="font-semibold">Programador Full Stack</span>,
           formado em <span className="font-semibold">Engenharia Elétrica</span>{" "}
           e atualmente
@@ -223,7 +223,7 @@ function App() {
           .
         </p>
 
-        <p className="text-gray-700 max-w-2xl mx-auto text-base sm:text-lg leading-relaxed text-justify mt-6">
+        <p className="text-gray-700 max-w-4xl mx-auto text-base sm:text-lg leading-relaxed text-justify mt-6">
           Entre meus projetos, destaco o{" "}
           <span className="font-semibold">
             desenvolvimento de um CMS completo para gestão de eventos e
@@ -266,7 +266,7 @@ function App() {
           .
         </p>
 
-        <p className="text-gray-700 max-w-2xl mx-auto text-base sm:text-lg leading-relaxed text-justify mt-6">
+        <p className="text-gray-700 max-w-4xl mx-auto text-base sm:text-lg leading-relaxed text-justify mt-6">
           Atuo também no{" "}
           <span className="font-semibold">
             desenvolvimento de Chatbots de IA
@@ -295,7 +295,7 @@ function App() {
           aprimorar a performance do assistente ao longo do tempo.
         </p>
 
-        <p className="text-gray-700 max-w-2xl mx-auto text-base sm:text-lg leading-relaxed text-justify mt-6">
+        <p className="text-gray-700 max-w-4xl mx-auto text-base sm:text-lg leading-relaxed text-justify mt-6">
           Tenho domínio em <span className="font-semibold">C</span> (para
           microcontroladores),
           <span className="font-semibold"> Python</span> (para scripts,
@@ -311,7 +311,7 @@ function App() {
           no desenvolvimento de soluções inovadoras e eficientes.
         </p>
 
-        <p className="text-gray-700 max-w-2xl mx-auto text-base sm:text-lg leading-relaxed text-justify mt-6">
+        <p className="text-gray-700 max-w-4xl mx-auto text-base sm:text-lg leading-relaxed text-justify mt-6">
           Atualmente, aprofundo meus estudos em{" "}
           <span className="font-semibold">
             programação e arquitetura de software
