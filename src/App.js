@@ -315,11 +315,12 @@ function App() {
           Atualmente, aprofundo meus estudos em{" "}
           <span className="font-semibold">
             programação e arquitetura de software
-          </span>
+          </span>{" "}
           pelo programa{" "}
           <span className="font-semibold">Oracle Next Education (ONE)</span>,
           sempre com foco em
           <span className="font-semibold">
+            {" "}
             boas práticas, aprendizado contínuo
           </span>{" "}
           e na criação de
