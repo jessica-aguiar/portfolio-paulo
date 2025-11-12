@@ -307,8 +307,8 @@ function App() {
           <span className="font-semibold">formação multidisciplinar</span>,
           aliada à prática em diferentes tecnologias, me permite integrar
           conhecimentos de{" "}
-          <span className="font-semibold">hardware e software</span>
-          no desenvolvimento de soluções inovadoras e eficientes.
+          <span className="font-semibold">hardware e software</span> no
+          desenvolvimento de soluções inovadoras e eficientes.
         </p>
 
         <p className="text-gray-700 max-w-4xl mx-auto text-base sm:text-lg leading-relaxed text-justify mt-6">
