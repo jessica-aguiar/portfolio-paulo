@@ -32,6 +32,7 @@ const projects = [
       "/prints/cms/cms_print_2.png",
       "/prints/cms/cms_print_3.png",
       "/prints/cms/cms_print_4.png",
+      "/prints/cms/cms_print_5.png",
     ],
   },
   {
