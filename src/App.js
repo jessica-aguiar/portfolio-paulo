@@ -68,7 +68,8 @@ const projects = [
   },
   {
     name: "Site Aguiar Estética Automotiva",
-    description: "Site moderno e responsivo para estética automotiva.",
+    description:
+      "Website institucional moderno e responsivo para a Aguiar Estética Automotiva, especializado em detalhamento automotivo em São Luís – MA. Oferece uma comunicação clara sobre os serviços de polimento técnico, vitrificação de pintura (coating), higienização interna, lavagem técnica, revitalização de plásticos e remoção de odores. A plataforma transmite confiança e profissionalismo, destacando a paixão por automóveis e o cuidado nos mínimos detalhes, além de facilitar o agendamento de atendimento personalizado.",
     link: "https://autoaguiarestetica.com.br/",
     images: ["/prints/estetica-automotiva/estetica_automotiva1.png"],
   },
