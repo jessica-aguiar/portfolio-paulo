@@ -37,7 +37,8 @@ const projects = [
   },
   {
     name: "Site Creche Escola Florescer",
-    description: "Site institucional responsivo para uma escola infantil.",
+    description:
+      "Desenvolvimento completo de um site institucional moderno e responsivo para a Creche Escola Florescer. O projeto foca em uma experiência visual acolhedora e intuitiva, facilitando a comunicação com pais, alunos e comunidade. Apresenta a filosofia pedagógica da escola, sua estrutura (salas climatizadas, atividades como Balé e Judô), calendário de eventos e informações de contato. Sua arquitetura garante fácil acesso em qualquer dispositivo e reflete os valores de amor, propósito e excelência da instituição.",
     link: "http://www.crecheescolaflorescer.com",
     images: ["/prints/creche/creche1.png"],
   },
