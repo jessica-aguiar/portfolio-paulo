@@ -23,6 +23,18 @@ const projects = [
     ],
   },
   {
+    name: "CMS para Gestão de Eventos e Conteúdo Institucional",
+    description:
+      "Desenvolvimento de um CMS completo para gestão de eventos e conteúdos de sites institucionais. Permite criação, edição, exclusão e atualização de imagens, textos e datas por meio de um painel administrativo intuitivo. Implementado com React (frontend), Node.js / Express (backend) e PostgreSQL (banco de dados), inclui CRUD, autenticação segura, API RESTful, integração contínua (GitHub + Vercel) e arquitetura escalável para alta disponibilidade.",
+    link: "#", // Atualize com o link real do projeto ou "Em desenvolvimento"
+    images: [
+      "/prints/cms/cms_print_1.png", // Substitua por imagens reais do seu CMS
+      "/prints/cms/cms_print_2.png",
+      "/prints/cms/cms_print_3.png",
+      "/prints/cms/cms_print_4.png",
+    ],
+  },
+  {
     name: "Site Creche Escola Florescer",
     description: "Site institucional responsivo para uma escola infantil.",
     link: "http://www.crecheescolaflorescer.com",
