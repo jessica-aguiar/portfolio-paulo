@@ -45,7 +45,7 @@ const projects = [
   {
     name: "PDV SaaS Aguiar Estética Automotiva",
     description:
-      "App completo com cadastro de clientes, ordem de serviços, agendamento e vendas.",
+      "Desenvolvimento de um sistema completo de Ponto de Venda (PDV) e Gerenciamento de Relacionamento com o Cliente (CRM), operando como Software as a Service (SaaS), especificamente para a Aguiar Estética Automotiva. Esta solução full-stack foi meticulosamente projetada para otimizar a gestão integral de serviços, clientes e operações de vendas. O sistema abrange funcionalidades cruciais como cadastro detalhado de clientes e veículos, gerenciamento robusto de ordens de serviço (O.S.) com anotações técnicas e vinculação a múltiplos serviços e funcionários, além de um módulo de agendamento integrado para uma organização impecável. O PDV facilita a finalização rápida e segura de vendas, suportando diversas formas de pagamento (Dinheiro, Crédito, Cartão, Pix) e garantindo um controle financeiro preciso. A arquitetura moderna é construída com React no frontend para uma interface de usuário intuitiva e responsiva, Node.js/Express no backend para uma API RESTful eficiente e segura, e PostgreSQL como banco de dados relacional, assegurando robustez, escalabilidade e integridade dos dados para apoiar o crescimento do negócio.",
     link: "#",
     images: [
       "/prints/PDV/pdv-primeira.png",
