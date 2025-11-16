@@ -75,7 +75,8 @@ const projects = [
   },
   {
     name: "Site Soluções em Engenharia Elétrica",
-    description: "Site moderno para Engenharia Elétrica.",
+    description:
+      "Desenvolvimento de um site institucional moderno e responsivo para a PH Melo Engenharia Elétrica, destacando seus serviços profissionais como projetos elétricos, laudos, ART, SPDA, energia solar e soluções técnicas para residências, comércios e indústrias. O site foi projetado com foco em clareza, credibilidade e experiência do usuário, transmitindo profissionalismo e facilitando o contato de clientes. A estrutura combina design limpo, desempenho otimizado e navegação intuitiva, oferecendo uma apresentação sólida da atuação do engenheiro responsável e dos serviços prestados.",
     link: "https://phmeloengenharia.com.br/",
     images: ["/prints/engenharia_eletrica/engenharia1.png"],
   },
