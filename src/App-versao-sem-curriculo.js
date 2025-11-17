@@ -139,7 +139,7 @@ function App() {
         <h2 className="text-2xl font-semibold mb-4">Contato</h2>
         <p className="text-gray-700 mb-4">📧 Email: phmelo.dev@gmail.com</p>
         {(() => {
-          const phone = "5598970034126";
+          const phone = "5561993772528";
           const message =
             "Olá, vim pelo seu portfólio e gostaria de falar com você!";
           const url = `https://wa.me/${phone}?text=${encodeURIComponent(
@@ -158,7 +158,7 @@ function App() {
                 alt="WhatsApp"
                 className="w-7 h-7"
               />
-              (98) 9700-34126
+              (61) 99377-2528
             </a>
           );
         })()}

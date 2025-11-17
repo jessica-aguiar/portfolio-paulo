@@ -6,13 +6,22 @@ import WhatsAppButton from "./components/WhatsAppButton";
 const projects = [
   {
     name: "Sistema de PDV SaaS",
-    description: "App completo com cadastro de clientes, ordem de serviços, agendamento e vendas.",
+    description:
+      "App completo com cadastro de clientes, ordem de serviços, agendamento e vendas.",
     link: "#",
     images: [
-      "/prints/pdv1.png", "/prints/pdv2.png", "/prints/pdv3.png",
-      "/prints/pdv4.png", "/prints/pdv5.png", "/prints/pdv6.png",
-      "/prints/pdv7.png", "/prints/pdv8.png", "/prints/pdv9.png",
-      "/prints/pdv10.png", "/prints/pdv11.png", "/prints/pdv12.png",
+      "/prints/pdv1.png",
+      "/prints/pdv2.png",
+      "/prints/pdv3.png",
+      "/prints/pdv4.png",
+      "/prints/pdv5.png",
+      "/prints/pdv6.png",
+      "/prints/pdv7.png",
+      "/prints/pdv8.png",
+      "/prints/pdv9.png",
+      "/prints/pdv10.png",
+      "/prints/pdv11.png",
+      "/prints/pdv12.png",
       "/prints/pdv13.png",
     ],
   },
@@ -56,24 +65,45 @@ const projects = [
 function App() {
   return (
     <div className="min-h-screen bg-gray-100 font-sans">
-       {/* SEO com React Helmet */}
+      {/* SEO com React Helmet */}
       <Helmet>
         <title>Paulo Melo | Desenvolvedor Full-Stack</title>
-        <meta name="description" content="Portfólio de Paulo Melo - Desenvolvedor Full-Stack especializado em React, Node.js e PostgreSQL. Projetos de SaaS, sites institucionais e software." />
-        <meta name="keywords" content="Desenvolvedor React, Node.js, PostgreSQL, Full-Stack, Portfólio, Paulo Melo" />
+        <meta
+          name="description"
+          content="Portfólio de Paulo Melo - Desenvolvedor Full-Stack especializado em React, Node.js e PostgreSQL. Projetos de SaaS, sites institucionais e software."
+        />
+        <meta
+          name="keywords"
+          content="Desenvolvedor React, Node.js, PostgreSQL, Full-Stack, Portfólio, Paulo Melo"
+        />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
         {/* Open Graph */}
-        <meta property="og:title" content="Paulo Melo | Desenvolvedor Full-Stack" />
-        <meta property="og:description" content="Portfólio de Paulo Melo - Projetos de sites, sistemas e aplicações web." />
+        <meta
+          property="og:title"
+          content="Paulo Melo | Desenvolvedor Full-Stack"
+        />
+        <meta
+          property="og:description"
+          content="Portfólio de Paulo Melo - Projetos de sites, sistemas e aplicações web."
+        />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://portfolio-paulo-melo.vercel.app/" />
+        <meta
+          property="og:url"
+          content="https://portfolio-paulo-melo.vercel.app/"
+        />
         <meta property="og:image" content="/prints/og-image.png" />
 
         {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Paulo Melo | Desenvolvedor Full-Stack" />
-        <meta name="twitter:description" content="Portfólio de Paulo Melo - Projetos de sites, sistemas e aplicações web." />
+        <meta
+          name="twitter:title"
+          content="Paulo Melo | Desenvolvedor Full-Stack"
+        />
+        <meta
+          name="twitter:description"
+          content="Portfólio de Paulo Melo - Projetos de sites, sistemas e aplicações web."
+        />
         <meta name="twitter:image" content="/prints/og-image.png" />
       </Helmet>
       {/* Header */}
@@ -116,14 +146,35 @@ function App() {
         <h2 className="text-xl sm:text-2xl font-semibold mb-6">Tecnologias</h2>
         <div className="flex flex-wrap justify-center gap-6">
           {[
-            { name: "React", logo: "https://cdn.worldvectorlogo.com/logos/react-2.svg" },
-            { name: "Node.js", logo: "https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg" },
-            { name: "PostgreSQL", logo: "https://cdn.worldvectorlogo.com/logos/postgresql.svg" },
-            { name: "TailwindCSS", logo: "https://cdn.worldvectorlogo.com/logos/tailwindcss.svg" },
-            { name: "C", logo: "https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png" },
-            { name: "MATLAB", logo: "https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" },
+            {
+              name: "React",
+              logo: "https://cdn.worldvectorlogo.com/logos/react-2.svg",
+            },
+            {
+              name: "Node.js",
+              logo: "https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg",
+            },
+            {
+              name: "PostgreSQL",
+              logo: "https://cdn.worldvectorlogo.com/logos/postgresql.svg",
+            },
+            {
+              name: "TailwindCSS",
+              logo: "https://cdn.worldvectorlogo.com/logos/tailwindcss.svg",
+            },
+            {
+              name: "C",
+              logo: "https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png",
+            },
+            {
+              name: "MATLAB",
+              logo: "https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png",
+            },
             { name: "Simulink", logo: "/logos/logo-Simulink.png" },
-            { name: "Microcontroladores", logo: "/logos/logo-microcontrolador.png" },
+            {
+              name: "Microcontroladores",
+              logo: "/logos/logo-microcontrolador.png",
+            },
           ].map((skill, idx) => (
             <div key={idx} className="flex flex-col items-center w-20">
               <img
@@ -146,7 +197,7 @@ function App() {
         </p>
 
         {(() => {
-          const phone = "5598970034126";
+          const phone = "5561993772528";
           const message =
             "Olá, vim pelo seu portfólio e gostaria de falar com você!";
           const url = `https://wa.me/${phone}?text=${encodeURIComponent(
@@ -165,7 +216,7 @@ function App() {
                 alt="WhatsApp"
                 className="w-6 h-6 sm:w-7 sm:h-7"
               />
-              (98) 9700-34126
+              (61) 99377-2528
             </a>
           );
         })()}

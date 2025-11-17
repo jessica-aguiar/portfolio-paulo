@@ -592,7 +592,7 @@ function App() {
 
               {/* WhatsApp */}
               <a
-                href="https://wa.me/5598970034126?text=Olá,%20vim%20pelo%20seu%20portfólio!"
+                href="https://wa.me/5561993772528?text=Olá,%20vim%20pelo%20seu%20portfólio!"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 px-3 py-2 bg-white text-blue-700 rounded-lg shadow hover:bg-green-500 hover:text-white transition transform hover:scale-105 text-sm sm:text-base"
@@ -603,7 +603,7 @@ function App() {
                   alt="WhatsApp"
                   className="w-6 h-6 sm:w-7 sm:h-7"
                 />
-                (98) 9700-34126
+                (61) 993772528
               </a>
             </div>
           </div>

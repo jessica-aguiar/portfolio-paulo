@@ -2,7 +2,6 @@ import React from "react";
 import PortfolioCard from "./components/PortfolioCard";
 import WhatsAppButton from "./components/WhatsAppButton";
 
-
 const projects = [
   /*{
     name: "Sistema de PDV SaaS",
@@ -34,42 +33,37 @@ const projects = [
     name: "Site Creche Escola Florescer",
     description: "Site institucional responsivo para uma escola infantil.",
     link: "http://www.crecheescolaflorescer.com",
-    images: [
-      "/prints/creche/creche1.png",  
-    ],
+    images: ["/prints/creche/creche1.png"],
   },
   {
     name: "Site Estética Automotiva Aguiar",
     description: "Site moderno e responsivo para estética automotiva.",
     link: "https://estetica-automotiva-aguiar.vercel.app/",
-   images: [ "/prints/estetica-automotiva/estetica_automotiva1.png",
-     ],
+    images: ["/prints/estetica-automotiva/estetica_automotiva1.png"],
   },
   {
     name: "Site Soluções em Engenharia Elétrica",
     description: "Site moderno para Engenharia Elétrica.",
     link: "https://paulo-henrique-melo-eng.vercel.app/",
-   images: [ "/prints/engenharia_eletrica/engenharia1.png",
-     ],
+    images: ["/prints/engenharia_eletrica/engenharia1.png"],
   },
   {
     name: "Site One-Page Engenharia Eletrônica & Software Personalizado",
     description: "Site moderno para Engenharia Eletrônica.",
     link: "https://site-engenharia-eletronica-paulo.vercel.app/",
-   images: [ "/prints/engenharia-eletronica/engenharia_eletronica1.png",
-     ],
+    images: ["/prints/engenharia-eletronica/engenharia_eletronica1.png"],
   },
   {
     name: "Software Financeiro para Igrejas (ainda em Desenvolvimento)",
     description: "Sistema em desenvolvimento para gestão financeira.",
     link: "#",
-     images: [ 
+    images: [
       "/prints/financeiro-igrejas/financeiro1.png",
       "/prints/financeiro-igrejas/financeiro2.png",
       "/prints/financeiro-igrejas/financeiro3.png",
       "/prints/financeiro-igrejas/financeiro4.png",
-     ],
-    },
+    ],
+  },
   /*{
     name: "App de Turismo em desenvolvimento",
     description: "Sistema integrado de gestão (em desenvolvimento).",
@@ -102,7 +96,6 @@ function App() {
         </p>
       </section>
 
-
       {/* Projetos */}
       <section className="p-10 bg-white">
         <h2 className="text-2xl font-semibold mb-6 text-center">Projetos</h2>
@@ -133,7 +126,7 @@ function App() {
       </section>*/}
 
       {/* Contato */}
-{/*<section className="p-10 text-center bg-gray-50">
+      {/*<section className="p-10 text-center bg-gray-50">
   <h2 className="text-2xl font-semibold mb-4">Contato</h2>
 
   <p className="text-gray-700 mb-4">
@@ -141,7 +134,7 @@ function App() {
   </p>
 
   <a
-    href="https://wa.me/5598970034126"
+    href="https://wa.me/5561993772528"
     target="_blank"
     rel="noopener noreferrer"
     className="inline-flex items-center gap-2 px-5 py-3 bg-green-500 text-white font-semibold rounded-2xl shadow-md hover:bg-green-600 transition"
@@ -156,8 +149,8 @@ function App() {
     (98)97003-4126
   </a>
 </section>*/}
-{/* Contato */}
-{/*<section className="p-10 text-center bg-gray-50">
+      {/* Contato */}
+      {/*<section className="p-10 text-center bg-gray-50">
   <h2 className="text-2xl font-semibold mb-4">Contato</h2>
 
   <p className="text-gray-700 mb-4">
@@ -165,7 +158,7 @@ function App() {
   </p>
 
   <a
-    href="https://wa.me/5598970034126"
+    href="https://wa.me/5561993772528"
     target="_blank"
     rel="noopener noreferrer"
     className="inline-flex items-center gap-3 px-5 py-3 bg-green-500 text-white font-semibold rounded-2xl shadow-md hover:bg-green-600 transition"
@@ -176,11 +169,11 @@ function App() {
       alt="WhatsApp"
       className="w-6 h-6"
     />
-    (98) 9700-34126
+    (61) 99377-2528
   </a>
 </section>*/}
-{/* Contato */}
-{/*<section className="p-10 text-center bg-gray-50">
+      {/* Contato */}
+      {/*<section className="p-10 text-center bg-gray-50">
   <h2 className="text-2xl font-semibold mb-4">Contato</h2>
 
   <p className="text-gray-700 mb-4">
@@ -188,7 +181,7 @@ function App() {
   </p>
 
   <a
-    href="https://wa.me/5598970034126"
+    href="https://wa.me/5561993772528"
     target="_blank"
     rel="noopener noreferrer"
     className="inline-flex items-center gap-2 text-gray-800 hover:text-green-600 transition"
@@ -199,70 +192,79 @@ function App() {
       alt="WhatsApp"
       className="w-7 h-7"
     />
-    (98) 9700-34126
+    (61) 99377-2528
   </a>
 </section>*/}
 
-<section className="p-10 text-center bg-white"> 
-  <h2 className="text-2xl font-semibold mb-6">Tecnologias</h2>
-   <div className="flex flex-wrap justify-center gap-6"> 
-    {
-    [
-       { name: "React", logo: "https://cdn.worldvectorlogo.com/logos/react-2.svg" }, 
-       { name: "Node.js", logo: "https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg" },
-       { name: "PostgreSQL", logo: "https://cdn.worldvectorlogo.com/logos/postgresql.svg" }, 
-       { name: "TailwindCSS", logo: "https://cdn.worldvectorlogo.com/logos/tailwindcss.svg" }, 
-       ]
-       .map((skill, idx) => ( <div key={idx} className="flex flex-col items-center">
-         <img src={skill.logo} alt={skill.name} className="w-12 h-12" /> 
-         <p className="mt-2 text-sm">
-          {skill.name}</p> </div> ))} 
-          </div> 
-          </section>
+      <section className="p-10 text-center bg-white">
+        <h2 className="text-2xl font-semibold mb-6">Tecnologias</h2>
+        <div className="flex flex-wrap justify-center gap-6">
+          {[
+            {
+              name: "React",
+              logo: "https://cdn.worldvectorlogo.com/logos/react-2.svg",
+            },
+            {
+              name: "Node.js",
+              logo: "https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg",
+            },
+            {
+              name: "PostgreSQL",
+              logo: "https://cdn.worldvectorlogo.com/logos/postgresql.svg",
+            },
+            {
+              name: "TailwindCSS",
+              logo: "https://cdn.worldvectorlogo.com/logos/tailwindcss.svg",
+            },
+          ].map((skill, idx) => (
+            <div key={idx} className="flex flex-col items-center">
+              <img src={skill.logo} alt={skill.name} className="w-12 h-12" />
+              <p className="mt-2 text-sm">{skill.name}</p>{" "}
+            </div>
+          ))}
+        </div>
+      </section>
 
-          
-{/* Contato */}
-<section className="p-10 text-center bg-gray-50">
-  <h2 className="text-2xl font-semibold mb-4">Contato</h2>
+      {/* Contato */}
+      <section className="p-10 text-center bg-gray-50">
+        <h2 className="text-2xl font-semibold mb-4">Contato</h2>
 
-  <p className="text-gray-700 mb-4">
-    📧 Email: phmelo.dev@gmail.com
-  </p>
+        <p className="text-gray-700 mb-4">📧 Email: phmelo.dev@gmail.com</p>
 
-  {(() => {
-    const phone = "5598970034126"; 
-    const message = "Olá, vim pelo seu portfólio e gostaria de falar com você!";
-    const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
+        {(() => {
+          const phone = "5561993772528";
+          const message =
+            "Olá, vim pelo seu portfólio e gostaria de falar com você!";
+          const url = `https://wa.me/${phone}?text=${encodeURIComponent(
+            message
+          )}`;
 
-    return (
-      <a
-        href={url}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="inline-flex items-center gap-2 text-gray-800 hover:text-green-600 transition"
-      >
-        {/* Ícone oficial do WhatsApp */}
-        <img
-          src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
-          alt="WhatsApp"
-          className="w-7 h-7"
-        />
-        (98) 9700-34126
-      </a>
-    );
-  })()}
-</section>
-
-
-
-
+          return (
+            <a
+              href={url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 text-gray-800 hover:text-green-600 transition"
+            >
+              {/* Ícone oficial do WhatsApp */}
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+                alt="WhatsApp"
+                className="w-7 h-7"
+              />
+              (61) 99377-2528
+            </a>
+          );
+        })()}
+      </section>
 
       {/* Footer */}
       <footer className="bg-gray-800 text-white text-center py-4">
-        &copy; {new Date().getFullYear()} Paulo Melo. Todos os direitos reservados.
+        &copy; {new Date().getFullYear()} Paulo Melo. Todos os direitos
+        reservados.
       </footer>
 
-       {/* Botão flutuante do WhatsApp */}
+      {/* Botão flutuante do WhatsApp */}
       <WhatsAppButton />
     </div>
   );
