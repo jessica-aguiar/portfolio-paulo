@@ -76,7 +76,7 @@ const projects = [
   {
     name: "Site Soluções em Engenharia Elétrica",
     description:
-      "Desenvolvimento de um site institucional moderno e responsivo para a PH Melo Engenharia Elétrica, destacando seus serviços profissionais como projetos elétricos, laudos, ART, SPDA, energia solar e soluções técnicas para residências, comércios e indústrias. O site foi projetado com foco em clareza, credibilidade e experiência do usuário, transmitindo profissionalismo e facilitando o contato de clientes. A estrutura combina design limpo, desempenho otimizado e navegação intuitiva, oferecendo uma apresentação sólida da atuação do engenheiro responsável e dos serviços prestados.",
+      "Desenvolvimento de um site institucional moderno e responsivo para a divulgação dos serviços de um profissional liberal da área de Engenharia Elétrica, destacando seus serviços profissionais como projetos elétricos, laudos, ART, SPDA, energia solar e soluções técnicas para residências, comércios e indústrias. O site foi projetado com foco em clareza, credibilidade e experiência do usuário, transmitindo profissionalismo e facilitando o contato de clientes. A estrutura combina design limpo, desempenho otimizado e navegação intuitiva, oferecendo uma apresentação sólida da atuação do engenheiro responsável e dos serviços prestados.",
     link: "https://phmeloengenharia.com.br/",
     images: ["/prints/engenharia_eletrica/engenharia1.png"],
   },
@@ -88,7 +88,8 @@ const projects = [
   },
   {
     name: "Software Financeiro para Igrejas (em desenvolvimento)",
-    description: "Sistema em desenvolvimento para gestão financeira.",
+    description:
+      "Aplicação desktop multiplataforma em Python (PySide6) para a gestão financeira de igrejas. Permite o cadastro e gerenciamento de membros, registro detalhado de receitas (dízimos, ofertas, doações) e despesas (água, luz, aluguel, ministérios), além de gerar relatórios financeiros básicos e exportá-los para PDF e Excel. O sistema conta com autenticação de usuários e uma interface intuitiva para o controle administrativo. Atualmente em desenvolvimento, com foco na expansão de funcionalidades e aprimoramento da experiência do usuário.",
     link: "#",
     images: [
       "/prints/financeiro-igrejas/financeiro1.png",
